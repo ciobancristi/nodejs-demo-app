@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ciobancristi/nodejs-demo-app/issues"
   },
-  "homepage": "https://github.com/ciobancristi/nodejs-demo-app#readme"
+  "homepage": "https://github.com/ciobancristi/nodejs-demo-app#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
