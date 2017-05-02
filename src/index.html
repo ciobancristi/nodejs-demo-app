@@ -6,167 +6,170 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Cristi Cioban</title>
 	<!--fonts-->
-		<link href='//fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+	 rel='stylesheet' type='text/css'>
 	<!--//fonts-->
-			<link href="css/bootstrap.css" rel="stylesheet">
-			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--for-mobile-apps-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Peak Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Peak Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!--//for-mobile-apps-->	
+	<script type="application/x-javascript">
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+	</script>
+	<!--//for-mobile-apps-->
 	<!--js-->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script src="js/modernizr.custom.97074.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/modernizr.custom.97074.js"></script>
 	<!--js-->
 	<!--start-smoth-scrolling-->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
 			});
-		</script>
+		});
+	</script>
 	<!--start-smoth-scrolling-->
 </head>
-<body>
-<!--banner-->
-<div id="home" class="banner">
-	<div class="container">
-		<div class="banner-grids">
-			<div class="col-md-4 navigation">
-				<div class="nav-left">
-					<div class="grid__item color-4">
-						<a class="link link--kumya" href="#home"><span data-letters="Cristi Cioban">Cristi Cioban</span></a>
-					</div>
-				</div>
-				<div class="nav-right">
-						<span class="menu"><img src="images/menu.png" alt="" /></span>
-							<nav class="cl-effect-1">
-								<ul class="nav1">
-									<li><a class="scroll" href="#home">Home</a></li>
-									<li><a class="scroll" href="#about">About</a></li>
-									<li><a class="scroll" href="#portfolio">Portfolio</a></li>
-									<li><a class="scroll" href="#services">Services</a></li>
-									<li><a class="scroll" href="#contact">Contact</a></li>
-								</ul>
-							</nav>
-							<!-- script for menu -->
-							<script> 
-								$( "span.menu" ).click(function() {
-								$( "ul.nav1" ).slideToggle( 300, function() {
-								 // Animation complete.
-								});
-								});
-							</script>
-							<!-- //script for menu -->
 
+<body>
+	<!--banner-->
+	<div id="home" class="banner">
+		<div class="container">
+			<div class="banner-grids">
+				<div class="col-md-4 navigation">
+					<div class="nav-left">
+						<div class="grid__item color-4">
+							<a class="link link--kumya" href="#home"><span data-letters="Cristi Cioban">Cristi Cioban</span></a>
+						</div>
+					</div>
+					<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+						<nav class="cl-effect-1">
+							<ul class="nav1">
+								<li><a class="scroll" href="#home">Home</a></li>
+								<li><a class="scroll" href="#about">About</a></li>
+								<li><a class="scroll" href="#portfolio">Portfolio</a></li>
+								<li><a class="scroll" href="#services">Services</a></li>
+								<li><a class="scroll" href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+						<!-- script for menu -->
+						<script>
+							$("span.menu").click(function () {
+								$("ul.nav1").slideToggle(300, function () {
+									// Animation complete.
+								});
+							});
+						</script>
+						<!-- //script for menu -->
+
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-8 banner-image text-center">
+					<img src="images/banner.png" alt="" />
 				</div>
 				<div class="clearfix"></div>
 			</div>
-			<div class="col-md-8 banner-image text-center">
-				<img src="images/banner.png" alt=""/>
-			</div>
-			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>
-<!-- //banner -->
-<!-- about -->
-<div id="about" class="about">
-	<div class="container">
-		<div class="about-info">
+	<!-- //banner -->
+	<!-- about -->
+	<div id="about" class="about">
+		<div class="container">
+			<div class="about-info">
 				<h3>ABOUT ME</h3>
 				<h4>Who I am and what I do</h4>
-				<p>I'm a student in my early twenties at the Technical University of Cluj-Napoca at 
-					the Computer Science And Automation Department. I enjoy partying, basketball,
-					computer games and last but not least developing software applications.
+				<p>I'm a student in my early twenties at the Technical University of Cluj-Napoca at the Computer Science And Automation
+					Department. I enjoy partying, basketball, computer games and last but not least developing software applications.
 				</p>
+			</div>
+			<div class="about-grids">
+				<div class="col-md-6 about-grid">
+					<h4>What I do and my experience</h4>
+					<p>I am currently a software engineer at <a class="ll-link" href="http://www.luminoslabs.com"> Luminos Labs(LL)</a> where
+						I had the opportunity to meet great people and learn a lot from them. I am involved in all stages of an application
+						and in all development areas, from the database schema to the user interface. It's fun to get to work with different
+						technologies and practices. </p>
+				</div>
+				<div class="col-md-6 about-grid">
+					<h4>My goals</h4>
+					<p>I simply want to improve my craft as much as I can and help others while doing so.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
 		</div>
-		<div class="about-grids">
-		   	<div class="col-md-6 about-grid">
-		   		<h4>What I do and my experience</h4>
-		   		<p>I am currently a software engineer at <a class="ll-link" href="http://www.luminoslabs.com"> Luminos Labs(LL)</a> 
-				   where I had the opportunity to meet great people and learn a lot from them. I am involved in all stages of 
-				   an application and in all development areas, from the database schema to the user interface. 
-				   It's fun to get to work with different technologies and practices. </p>
-		   	</div>
-		   	<div class="col-md-6 about-grid">
-		   		<h4>My goals</h4>
-		   		<p>I simply want to improve my craft as much as I can and help others while doing so.</p>
-		   	</div>
-		   	<div class="clearfix"> </div>
-		</div>   
 	</div>
-</div>
-<!-- //about -->
-<!-- my skills -->
+	<!-- //about -->
+	<!-- my skills -->
 	<div class="our-skills">
 		<div class="container">
 			<div class="skill-info">
 				<h2>MY SKILLS</h2>
 			</div>
 			<div class="skill-grids">
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-1"></div>
-						<p>Node JS</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-2"></div>
-						<p>ElasticSearch</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-3"></div>
-						<p>Angular JS</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-4"></div>
-						<p>C#</p>
-					</div>
-					<div class="clearfix"> </div>
-				 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>
-								var colors = [
-										['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
-									];
-								for (var i = 1; i < 5; i++) {
-									var child = document.getElementById('circles-' + i),
-										percentage = 40 + (i * 10);
-										
-									Circles.create({
-										id:         child.id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   	percentage,
-										text:       '%',
-										colors:     colors[i - 1]
-									});
-								}
-						
+				<div class="col-md-3 skills-grid text-center">
+					<div class="circle" id="circles-1"></div>
+					<p>Node JS</p>
+				</div>
+				<div class="col-md-3 skills-grid text-center">
+					<div class="circle" id="circles-2"></div>
+					<p>ElasticSearch</p>
+				</div>
+				<div class="col-md-3 skills-grid text-center">
+					<div class="circle" id="circles-3"></div>
+					<p>Angular JS</p>
+				</div>
+				<div class="col-md-3 skills-grid text-center">
+					<div class="circle" id="circles-4"></div>
+					<p>C#</p>
+				</div>
+				<div class="clearfix"> </div>
+				<script type="text/javascript" src="js/circles.js"></script>
+				<script>
+							var colors = [
+								['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
+							];
+							for (var i = 1; i < 5; i++) {
+								var child = document.getElementById('circles-' + i),
+									percentage = 40 + (i * 10);
+
+								Circles.create({
+									id: child.id,
+									percentage: percentage,
+									radius: 80,
+									width: 10,
+									number: percentage,
+									text: '%',
+									colors: colors[i - 1]
+								});
+							}
 				</script>
 			</div>
-		</div>	
+		</div>
 	</div>
-<!-- //my skills -->
-<div id="portfolio" class="gallery">
+	<!-- //my skills -->
+	<div id="portfolio" class="gallery">
 		<div class="container">
-				<script src="js/jquery.chocolat.js"></script>
+			<script src="js/jquery.chocolat.js"></script>
 			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 			<!--light-box-files -->
 			<script type="text/javascript" charset="utf-8">
-			$(function() {
-				$('.gallery a').Chocolat();
-			});
+								$(function () {
+									$('.gallery a').Chocolat();
+								});
 			</script>
 			<h3>PORTFOLIO</h3>
 			<section>
@@ -252,179 +255,182 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="clearfix"> </div>
 				</ul>
 			</section>
-				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
-				<script type="text/javascript">
-					$(function() {
-						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
-					});
-				</script>
-        </div>	
-</div>
-<!--//gallery-->
-<!--services-->
-<div id="services" class="services">
-	<div class="container">
-		<div class="ser-head">
-			<h3>FEATURED SERVICES</h3>
-		</div>
-		<div class="wel-grids">
-			<div class="col-md-4 wel-grid text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-					</figure>
-					<h3>UI development / Design</h3>
-					<p> I had the opportunity to create dynamic/interactive user interfaces on multiple projects where
-						i worked with HTML5, CSS3, Angular JS, JQuery.
-					</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid btm-gre text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-					</figure>
-					<h3>Web Developer</h3>
-					<p> Designed web applications in ASP .NET with different frameworks like ASP.NET MVC 4,
-						ASP.NET MVC 5, ASP.NET WebForms, ASP.NET Web Api 2. I also worked with a CMS and 
-						E-Commerce framwork EpiServer. </p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
-					</figure>
-					<h3>Data Management</h3>
-					<p> Most part of the work I've done until now as a software engineer, it was as a backend developer.
-					    This included a lot of work around Database Management Systems. I've mostly worked with Microsoft SQL Server (2012, 2014, 2016), but I'm also familiar with MySQL 
-						and MongoDb DataBase servers that I've used in small Node.js and Java Web Projects.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid btm-gre text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
-					</figure>
-					<h3>Application Deployment</h3>
-					<p> Had the responsability to deploy applications on different environments. Used Microsoft Azure as hosting environment for different web applications 
-						and also deployed to private servers that required different application configuration settings.</p>
-				</div>
-			</div>
-			<div class="col-md-4 wel-grid text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-					</figure>
-					<h3>Mobile Apps</h3>
-					<p> Worked with Android, NativeScript, Ionic 1, Ionic 2 to develop small sized 
-						apps for learning purposes.
-					</p>
-				</div>
-			</div>
-			<!--<div class="col-md-4 wel-grid btm-gre text-center">
-				<div class="btm-clr">
-					<figure class="icon">
-						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-					</figure>
-					<h3>VOLUPTATEM</h3>
-					<p> Nemo enim ipsam voluptatem
-					quia voluptas sit aspernatur aut
-					odit aut fugi.</p>
-				</div>
-			</div>-->
-			<div class="clearfix"></div>
+			<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+			<script type="text/javascript">
+				$(function () {
+					$(' #da-thumbs > li ').each(function () { $(this).hoverdir(); });
+				});
+			</script>
 		</div>
 	</div>
-</div>
-<!--//services-->
-<!--news-->
-<div class="news">
-	<div class="container">
-		<h3>NEWSLETTER SIGN UP</h3>
-		<p> Sign up if you want to receive emails from me. </p>
-		<div class="na-m">
-			<div class="name">
+	<!--//gallery-->
+	<!--services-->
+	<div id="services" class="services">
+		<div class="container">
+			<div class="ser-head">
+				<h3>FEATURED SERVICES</h3>
+			</div>
+			<div class="wel-grids">
+				<div class="col-md-4 wel-grid text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+						</figure>
+						<h3>UI development / Design</h3>
+						<p> I had the opportunity to create dynamic/interactive user interfaces on multiple projects where i worked with HTML5,
+							CSS3, Angular JS, JQuery.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid btm-gre text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						</figure>
+						<h3>Web Developer</h3>
+						<p> Designed web applications in ASP .NET with different frameworks like ASP.NET MVC 4, ASP.NET MVC 5, ASP.NET WebForms,
+							ASP.NET Web Api 2. I also worked with a CMS and E-Commerce framwork EpiServer. </p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+						</figure>
+						<h3>Data Management</h3>
+						<p> Most part of the work I've done until now as a software engineer, it was as a backend developer. This included a lot
+							of work around Database Management Systems. I've mostly worked with Microsoft SQL Server (2012, 2014, 2016), but I'm
+							also familiar with MySQL and MongoDb DataBase servers that I've used in small Node.js and Java Web Projects.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid btm-gre text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+						</figure>
+						<h3>Application Deployment</h3>
+						<p> Had the responsability to deploy applications on different environments. Used Microsoft Azure as hosting environment
+							for different web applications and also deployed to private servers that required different application configuration
+							settings.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+						</figure>
+						<h3>Troubleshooting and Optimization </h3>
+						<p> Completed maintenance tasks on relative old projects. With these type of projects I was able to learn how to troubleshoot
+							different issues that come into systems and learned how important are some dev activites when working on a project:
+							Code Review, Code Refactoring and Testing.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid btm-gre text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+						</figure>
+						<h3>Mobile Apps</h3>
+						<p>
+							Worked with Android as a native mobile language and explored hybrid languages like: NativeScript 2, Ionic 1,
+							 Ionic 2 to develop small sized apps for learning purposes.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	<!--news-->
+	<div class="news">
+		<div class="container">
+			<h3>NEWSLETTER SIGN UP</h3>
+			<p> Sign up if you want to stay up to date with my work. </p>
+			<div class="na-m">
+				<div class="name">
+					<form>
+						<input type="text" placeholder="Enter email id" required="">
+					</form>
+				</div>
+				<div class="button">
+					<form>
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//news-->
+	<!-- get-in -->
+	<div id="contact" class="get-in-touch">
+		<div class="container">
+			<div class="get-info text-center">
+				<h3>GET IN TOUCH</h3>
+				<h4><i>Feel Free To Contact Me</i></h4>
+				<!--<p>Lorem ipsum dolor amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse</p>-->
+			</div>
+		</div>
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2732.22722162441!2d23.602752978538955!3d46.78012686325397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1493758508560"
+			 frameborder="0" style="border:0"></iframe>
+		</div>
+	</div>
+	<!-- //get-in -->
+	<!-- contact-us -->
+	<div class="contact-us">
+		<div class="container">
+			<div class="contact-grids">
+				<div class="col-md-4 contact-grid text-center">
+					<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+					<p>Str. Bucuresti Nr. 70 Bloc D17 Scara 4 Ap 99, Cluj-Napoca, Romania</p>
+				</div>
+				<div class="col-md-4 contact-grid text-center">
+					<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+					<p><a href="mailto:ciobancristi@gmail.com">ciobancristi@gmail.com</a></p>
+				</div>
+				<div class="col-md-4 contact-grid text-center">
+					<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+					<p>+40 753 523 966</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="contact-info">
 				<form>
-					<input type="text" placeholder="Enter email id" required="">
+					<input type="text" placeholder="Your Name" required>
+					<input type="text" placeholder="Your E-Mail" required>
+					<input type="text" placeholder="Subject" required>
+					<textarea placeholder="Your Message" required></textarea>
+					<input type="submit" value="SEND MESSAGE">
 				</form>
 			</div>
-			<div class="button">
-				<form>
-					<input type="submit" value="Subscribe">
-				</form>
-			</div>
-			<div class="clearfix"> </div>
 		</div>
 	</div>
-</div>
-<!--//news-->
-<!-- get-in -->
-<div id="contact" class="get-in-touch">
-	<div class="container">
-		<div class="get-info text-center">
-			<h3>GET IN TOUCH</h3>
-			<h4><i>Feel Free To Contact Me</i></h4>
-			<!--<p>Lorem ipsum dolor amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse</p>-->
+	<!-- //contact-us -->
+	<!-- footer -->
+	<div class="copy-right">
+		<div class="container">
+			<p> &copy; 2015 Peak. All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts</a></p>
 		</div>
 	</div>
-	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2732.22722162441!2d23.602752978538955!3d46.78012686325397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1493758508560" frameborder="0" style="border:0"></iframe>
-	</div>
-</div>
-<!-- //get-in -->
-<!-- contact-us -->
-<div class="contact-us">
-	<div class="container">
-		<div class="contact-grids">
-			<div class="col-md-4 contact-grid text-center">
-				<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
-				<p>Str. Bucuresti Nr. 70 Bloc D17 Scara 4 Ap 99, Cluj-Napoca, Romania</p>
-			</div>
-			<div class="col-md-4 contact-grid text-center">
-				<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
-				<p><a href="mailto:ciobancristi@gmail.com">ciobancristi@gmail.com</a></p>
-			</div>
-			<div class="col-md-4 contact-grid text-center">
-				<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
-				<p>+40 753 523 966</p>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		<div class="contact-info">
-			<form>
-				<input type="text" placeholder="Your Name" required>
-				<input type="text" placeholder="Your E-Mail" required>
-				<input type="text" placeholder="Subject" required>
-				<textarea placeholder="Your Message" required></textarea>
-				<input type="submit" value="SEND MESSAGE">
-			</form>
-		</div>
-	</div>
-</div>
-<!-- //contact-us -->
-<!-- footer -->
-<div class="copy-right">
-	<div class="container">
-		<p> &copy; 2015 Peak. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
-	</div>
-</div>
-<!-- footer -->
-<!-- smooth scrolling -->
+	<!-- footer -->
+	<!-- smooth scrolling -->
 	<script type="text/javascript">
-		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/								
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		});
+				$(document).ready(function () {
+					/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+						};
+					*/
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
+	<!-- //smooth scrolling -->
 </body>
+
 </html>

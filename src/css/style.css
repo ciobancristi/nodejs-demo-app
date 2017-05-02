@@ -337,7 +337,7 @@ margin-top:50px;
   text-align: center;
   position: relative;	
 }
-.btm-clr .glyphicon-star, .glyphicon-edit, .glyphicon-cloud, .glyphicon-stats, .glyphicon-phone,.btm-clr .glyphicon-cog,.btm-clr .glyphicon-map-marker,.btm-clr .glyphicon-thumbs-up,.btm-clr .glyphicon-globe {
+.btm-clr .glyphicon-star, .glyphicon-list-alt, .glyphicon-edit, .glyphicon-cloud, .glyphicon-stats, .glyphicon-phone,.btm-clr .glyphicon-cog,.btm-clr .glyphicon-map-marker,.btm-clr .glyphicon-thumbs-up,.btm-clr .glyphicon-globe {
   z-index: 9999;
   top: 27px;
   left: 0px;
@@ -822,7 +822,7 @@ color:#76b852;
 	  width: 87px;
 	  height: 87px;
 	  }
-	.btm-clr .glyphicon-star, .glyphicon-edit, .glyphicon-cloud, .glyphicon-stats, .glyphicon-phone, .btm-clr .glyphicon-cog, .btm-clr .glyphicon-map-marker, .btm-clr .glyphicon-thumbs-up, .btm-clr .glyphicon-globe {
+	.btm-clr .glyphicon-star, .glyphicon-list-alt, .glyphicon-edit, .glyphicon-cloud, .glyphicon-stats, .glyphicon-phone, .btm-clr .glyphicon-cog, .btm-clr .glyphicon-map-marker, .btm-clr .glyphicon-thumbs-up, .btm-clr .glyphicon-globe {
 	  font-size: 35px;
 	  }
 	  .btm-clr .glyphicon-pencil {
@@ -966,7 +966,7 @@ color:#76b852;
 	  width: 87px;
 	  height: 87px;
 	  }
-	.btm-clr .glyphicon-star, .glyphicon-edit, .glyphicon-cloud, .glyphicon-stats, .glyphicon-phone, .btm-clr .glyphicon-cog, .btm-clr .glyphicon-map-marker, .btm-clr .glyphicon-thumbs-up, .btm-clr .glyphicon-globe {
+	.btm-clr .glyphicon-star, .glyphicon-list-alt, .glyphicon-edit, .glyphicon-cloud, .glyphicon-stats, .glyphicon-phone, .btm-clr .glyphicon-cog, .btm-clr .glyphicon-map-marker, .btm-clr .glyphicon-thumbs-up, .btm-clr .glyphicon-globe {
 	  font-size: 35px;
 	  }
 	.wel-grid h3 {
